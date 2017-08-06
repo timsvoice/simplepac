@@ -1,23 +1,26 @@
 {
-  "name": "simplepac",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "chai": "^4.1.0",
-    "material-ui": "^0.18.7",
-    "mocha": "^3.4.2",
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1",
-    "sinon": "^2.4.1"
-  },
-  "devDependencies": {
-    "enzyme": "^2.9.1",
-    "react-scripts": "1.0.10"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  }
+    "name": "simplepac",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "material-ui": "next",
+        "react": "^15.6.1",
+        "react-dom": "^15.6.1",
+        "request": "^2.81.0",
+        "request-promise": "^4.2.1"
+    },
+    "devDependencies": {
+        "chai": "^4.1.0",
+        "enzyme": "^2.9.1",
+        "mocha": "^3.4.2",
+        "react-scripts": "1.0.10",
+        "sinon": "^2.4.1"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test --env=jsdom",
+        "eject": "react-scripts eject"
+    },
+    "proxy": "http://localhost:3000"
 }
