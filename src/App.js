@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { MuiThemeProvider } from 'material-ui/styles';
 import Grid from 'material-ui/Grid';
 import ZipLookup from './ZipLookup';
-import RoutesTable from './RoutesTable';
+import RoutesTable from './RoutesTable/RoutesTable';
 import { CircularProgress } from 'material-ui/Progress';
 import rp from 'request-promise';
 import config from './config';
